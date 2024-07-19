@@ -10,7 +10,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get("/turma")
+  @Get('/turma')
   getTurma(): string {
     return this.appService.getTurma();
   }
